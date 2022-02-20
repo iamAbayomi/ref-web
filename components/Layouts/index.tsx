@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { ReactNode } from 'react'
 import logo from '../../assets/images/sendme-primary-logo.svg'
+import MulishFonts from '../ui/MulishFonts'
 
 type props = {
     children? : ReactNode
@@ -9,6 +10,7 @@ type props = {
 const Layout = ({children}: props) =>{
     return(
         <div className='main'>
+            <MulishFonts/>
             <div className='image-container'>
                 <Image
                     className='app-logo'
