@@ -8,7 +8,7 @@ const IndexPage = () => (
       <p className='info-text'>Earn #100 airtime when you refer people 
         in Ibadan only</p>
       <p className='highlight-text'>Enter your phone number to receive airtime</p>
-      <input  type={"name"} placeholder='' />
+      <input className='input-field'  type={"name"} placeholder='' />
       <Primary buttonTitle={'Share Referral Link'} nextPage='/accesscontact'/>
   </Layout>
 )
