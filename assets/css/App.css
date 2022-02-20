@@ -1,0 +1,16 @@
+body{
+    background-color: #E8E8E8;
+}
+
+.main{
+    max-width: 340px;
+    margin: auto;
+    background-color: white;
+}
+
+
+.image-container{
+    max-width: 97px;
+    /* margin: auto; */
+    padding: 60px 0px 20px;
+}
