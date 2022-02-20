@@ -19,7 +19,7 @@ const IndexPage = () => (
           <input className='input-field'  type={"number"} placeholder='' />
       </div>
       
-      <Primary buttonTitle={'Share Referral Link'} nextPage='/accesscontact'/>
+      <Primary buttonTitle={'Share Referral Link'} nextPage='/contact'/>
   </Layout>
 )
 
